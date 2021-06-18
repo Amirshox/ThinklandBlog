@@ -46,13 +46,16 @@ def article_detail(request, slug):
                 return HttpResponseRedirect(f'/articles/{article.slug}/')
         else:
             comment_form = CommentForm()
-
-        context = {
-            'article': article,
-            'comment_form': comment_form,
-            'comments': comments
-        }
-        return render(request, 'blog/article_detail.html', context)
+    else:
+        article = get_object_or_404(Article, slug=slug)
+        comments = article.comments.all()
+        comment_form = []
+    context = {
+        'article': article,
+        'comment_form': comment_form,
+        'comments': comments
+    }
+    return render(request, 'blog/article_detail.html', context)
 
 
 def category_list(request, slug):
