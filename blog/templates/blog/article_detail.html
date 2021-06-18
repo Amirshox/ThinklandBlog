@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="col-md-8 offset-2 mt-5">
+        <div class="card text-center">
+            <div class="card-header">
+                <div class="d-flex justify-content-between">
+                    <a href="{{ article.category.get_absolute_url }}">{{ article.category }}</a>
+                    <b>{{ article.type|capfirst }}</b>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{ article.title }}</h5>
+                <p class="card-text">{{ article.content }}</p>
+            </div>
+            <div class="card-footer text-muted">
+                {{ article.created_at|date:"d-m-Y" }}
+            </div>
+        </div>
+
+    {% include 'blog/comments.html' %}
+
+
+    </div>
+
+
+
+{% endblock %}

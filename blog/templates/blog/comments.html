@@ -1,0 +1,35 @@
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">Comment here</div>
+            <div class="card-body">
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <div class="d-flex align-items-end">
+                        {# <textarea class="form-control" aria-label="With textarea"></textarea>#}
+                        <div>
+                            {{ comment_form.body }}
+                        </div>
+                        <div>
+                        <button class="btn btn-success py-1 mx-2" type="submit">Post</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="list-group">
+            {% for comment in comments %}
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ comment.author }}</h5>
+                        <small>{{ comment.publish }}</small>
+                    </div>
+                    <p class="my-3">{{ comment.body }}</p>
+                </a>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>

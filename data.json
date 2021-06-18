@@ -1,0 +1,120 @@
+[
+  {
+    "model": "blog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Iqtisodiyot",
+      "slug": "iqtisodiyot"
+    }
+  },
+  {
+    "model": "blog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Jamiyat",
+      "slug": "jamiyat"
+    }
+  },
+  {
+    "model": "blog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Fan va texnika",
+      "slug": "fan-va-texnika"
+    }
+  },
+  {
+    "model": "blog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Sport",
+      "slug": "sport"
+    }
+  },
+  {
+    "model": "blog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Jahon",
+      "slug": "jahon"
+    }
+  },
+  {
+    "model": "blog.category",
+    "pk": 6,
+    "fields": {
+      "name": "O‘zbekiston",
+      "slug": "ozbekiston"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 1,
+    "fields": {
+      "title": "Bayden va Putin uchrashuvi: kun tartibida qanday masalalar bor?",
+      "slug": "bayden-va-putin-uchrashuvi-kun-tartibida-qanday-masalalar-bor",
+      "created_at": "2021-06-18T05:21:19.218Z",
+      "type": "free",
+      "content": "Jyenevada AQSh prezidenti Jo Bayden va Rossiya prezidenti Vladimir Putinning uchrashuvi boshlandi. Ular ilk marta davlat rahbarlari sifatida uchrashishdi.\r\n\r\nKeng qamrovli xavfsizlik choralari ko‘rilgan Jyenevada ikki davlat rahbarini Shveytsariya prezidenti Gi Parmelin alohida-alohida kutib oldi.\r\n\r\nSammit bo‘lib o‘tadigan Jyeneva ko‘li bo‘yidagi Villa La Granj mehmonxonasida ikki prezident qo‘l berib ko‘rishdi.",
+      "category": 5
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 2,
+    "fields": {
+      "title": "Ishtixonda hokimlik matbuot xizmati xodimi jurnalist kamerasining xotira kartasini «yeb qo‘ygani» aytilmoqda",
+      "slug": "ishtixonda-hokimlik-matbuot-xizmati-xodimi-jurnalist-kamerasining-xotira-kartasini-yeb-qoygani-aytilmoqda",
+      "created_at": "2021-06-18T05:21:52.145Z",
+      "type": "free",
+      "content": "Ijtimoiy tarmoqlarda Ishtixon tumani hokimligi axborot xizmati xodimi shu tumanga borgan jurnalistlarning kamerasiga tashlanib, undagi xotira kartasini chaynab, yo‘q qilgani haqida xabar tarqaldi.",
+      "category": 2
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 3,
+    "fields": {
+      "title": "«Mijoz – bank uchun»: Odamlar nega hali ham valutafurushlarga murojaat qilyapti?",
+      "slug": "mijoz-bank-uchun-odamlar-nega-hali-ham-valutafurushlarga-murojaat-qilyapti",
+      "created_at": "2021-06-18T05:22:30.736Z",
+      "type": "premium",
+      "content": "Bir qarashda, valuta bozori liberallashtirilganidan keyin, valutafurushlar keskin kamayib ketishi kerakdek edi. Axir banklar valutaning bozor kursini taklif qilib turganda, o‘zini xatarga qo‘yib noqonuniy «valyutchik»ka murojaat qilish kimga kerak? Biroq unday bo‘lib chiqqani yo‘q.",
+      "category": 1
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 4,
+    "fields": {
+      "title": "Xitoy ilk marta Marsga o‘z apparatini qo‘ndirdi",
+      "slug": "xitoy-ilk-marta-marsga-oz-apparatini-qondirdi",
+      "created_at": "2021-06-18T11:26:35.218Z",
+      "type": "premium",
+      "content": "Xitoyning «Tyanven-1» («Samoga savollar») marsoxodi Mars yuzasiga muvaffaqiyatli qo‘ndi.\r\n\r\n«15 may kuni “Tyanven-1” apparati Xitoyning Marsni tadqiq qilish bo‘yicha birinchi missiyasi doirasida Marsning Utopiya tekisligi janubidagi oldindan rejalashtirilgan joyga muvaffaqiyatli qo‘nishni amalga oshirdi», – deya Xitoy Milliy kosmik boshqarmasi axborotini keltirmoqda Sinxua agentligi.\r\n\r\nKosmik apparat o‘tgan yil iyulida Xitoy janubidagi Xaynan orolidan uchirilgandi. U fevral oyi oxirida Mars orbitasiga kirgan. Shundan so‘ng ikki oy davomida qo‘nish uchun mos keladigan joy qidirgan; shuningdek, sayyora yuzasini suratga olgan.\r\n\r\n\r\n\r\nMissiyaning asosiy maqsadi – Marsda hayot bo‘lishi mumkinligi ehtimollarini tekshirish. Shu bilan birga, apparat to‘plagan ma'lumotlar olimlarga bu sayyoradagi shart-sharoit kelgusida odamlar yashashi uchun qulay bo‘lishi mumkin yoki yo‘qligini o‘rganishda qo‘l keladi.\r\n\r\nMa'lum qilinishicha, marsoxod Pekin vaqti bilan 15 may soat 01:00da (Toshkent vaqti bilan 14 may soat 22:00da) Mars orbitasidagi joyidan yo‘lga chiqqan. Oradan uch soat o‘tib apparat orbital modulidan ajralib, uch soatdan so‘ng Mars atmosferasiga kirgan. Shundan so‘ng 9 daqiqa ichida tezlik bilan pastlashib, Toshkent vaqti bilan soat 4:18da muvaffaqiyatli qo‘ngan.",
+      "category": 3
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 5,
+    "fields": {
+      "title": "De Bryuyne qaytdi va hal qildi, yana ikki jamoa pley-offda. Kun o‘yinlari yakunlari",
+      "slug": "de-bryuyne-qaytdi-va-hal-qildi-yana-ikki-jamoa-pley-offda-kun-oyinlari-yakunlari",
+      "created_at": "2021-06-18T11:27:14.257Z",
+      "type": "premium",
+      "content": "Eriksenni qo‘llab-quvvatlov\r\n«Butun Daniya sen bilan, Kristian» — o‘yinning 10-daqiqasi o‘tayotganda Kopenhagendagi tribunalardan birida shu so‘zlar bitilgan banner ko‘tarildi. Kristian Eriksen bilan ro‘y bergan hodisa tufayli shu kuni «Parken» stadioni daniyaliklar futbolining eng yaxshi namoyondasini qo‘llab-quvvatlovchi atributlar bilan to‘lib toshgandi.\r\n\r\nAmmo Eriksenni nafaqat muxlislar, balki futbolchilar ham maydonda qo‘llab-quvvatalshdi. Bannerlar o‘ninchi daqiqada ko‘tarilgani bejiz emas, Eriksen Yevropa chempionatida aynan 10-raqamli futbolkada o‘ynayotgandi. 11-daqiqaga o‘tilganda o‘yin bir daqiqaga to‘xtatildi. Bu vaqtda to‘p belgiyaliklarda edi, arbitr Born Kyuypers o‘yindan oldin kelishilganidek tanaffus e'lon qildi. Kristianning «Inter»dagi jamoadoshi, Belgiya termasi forvardi Romelu Lukaku o‘yindan bir kun oldin o‘yinda bir daqiqa to‘xtalish bo‘lishini e'lon qilgandi. Shunday ham bo‘ldi: belgiyaliklar to‘pni autga tepib yuborishdi va futbolchilar joylarida to‘xtab, butun arena bilan birgalikda Eriksenni olqishlashdi.",
+      "category": 4
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+      "article": 5,
+      "author": 1,
+      "body": "Hello World",
+      "publish": "2021-06-18T11:27:36.164Z"
+    }
+  }
+]
