@@ -62,7 +62,7 @@ def category_list(request, slug):
     if request.user.is_authenticated:
         articles = Article.objects.filter(category__slug=slug)
     else:
-        articles = Article.objects.filter(type='Free', category__slug=slug)
+        articles = Article.objects.filter(Q(category__slug=slug) & Q(type='free'))
     return render(request, 'blog/article_list.html', {'articles': articles})
 
 
